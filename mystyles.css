@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+body{ 
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'roboto', sans-serif;
+    color:#0D0C0C;
+    
+    
+    
+}
+
+header, section {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+h3 {
+    font-family: 'Playball', cursive;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header {
+    
+    height: 600px;
+    background: url(./images/images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-description {
+    background-color: #fff;
+    padding: 3em 2em;
+}
+
+@media (min-width: 800px){
+    .container-flex {
+ 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2em 0;
+        
+        
+    }
+
+    .banner-description {
+        width: 70%;
+    }
+}
+
+.section-one {
+    background-color: indianred;
+   padding: 5em 0;
+    color: #fff;
+    
+}
+
+
+.text-1 {
+    font-family: 'Playball', cursive;
+    font-size: 1.7rem;
+    margin-bottom: 0.7em;
+    
+}
+
+.text-2 {
+    
+    font-size: 1.1rem;
+}
+
+@media (min-width: 800px) {
+    .section-one-text {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .text-1 {
+        width: 80%;
+        
+    }
+
+    .text-2 {
+        width: 50%;
+    }
+
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .flex-item {
+        flex-basis: calc(33.33%);
+        margin: -10px 0;
+    }
+}
+
+
+
+.section-three {
+    background-color: indianred;
+    text-align: center;
+    color: #fff;
+    padding: 3em 0;
+}
+
+.section-three-text {
+    margin: 1.3em 0;
+}
+
+.input-container input  {
+    padding: 10px;
+    border-radius: 50px;
+   
+    margin: 5px;
+    border: 0;
+    
+}
+
+.button-container button {
+    padding: 1em 2em;
+    margin-top: 2px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;   
+    border: 0;
+    
+}
+
+@media (min-width: 800px) {
+    .update-form {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section-four {
+    background-color: #fff;
+    
+}
+
+.section-four-article {
+    padding: 2em;
+}
+
+
+.section-four-article p {
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 1.5em;
+}
+
+@media (min-width: 800px) {
+    
+    .section-four-image {
+        width: 30%;
+    }
+
+    .section-four-article {
+        width: 70%;
+    }
+}
+
+.section-five {
+    background-color: indianred;
+    text-align: center;
+    color: #fff;
+    padding: 3em 0 0 0;
+}
+
+.slider-title {
+    margin-bottom: 1em;
+}
+
+.fa-arrow-right {
+    font-size: 50px;
+    margin-bottom: 1.5em;
+}
+
+
+
+@media (min-width: 800px) {
+    .slider-container {
+        display: flex;
+        gap: 10px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2em 0;
+        
+    }
+
+   
+}
+
+.section-six {
+    background-color: #fff;
+   
+    
+    padding: 3em 0;
+}
+
+.product-info {
+    padding: 1em 1em;
+}
+
+.product-item {
+    margin: 10px;
+}
+
+.product-name {
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-bottom: 1em;
+}
+
+.product-price {
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+.add-to-cart {
+    padding: 0.7em 2em;
+    margin-top: 1em;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;   
+    border: 0; 
+}
+
+.section-seven {
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.subcription-title {
+    position: relative;
+    color: #000;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    border-top: 3px solid indianred;
+    margin: 1em 0.5em;
+    
+}
+
+/*.subcription-title::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 80%;
+    background-color: indianred;
+    margin-top: 0.2em;
+
+}*/
+.input-flex > .input-container input {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.subscription-text {
+    
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 1em;
+}
+
+.subscription-form > .button-container button {
+    padding: 0.7em 2em;
+}
+
+.fab {
+    margin: 1.5em 0.3em;
+}
+
+@media (min-width: 800px) {
+    .subscription-container {
+        display: flex;
+    }
+
+    .subscription-image {
+        width: 50%;
+        background-color: #bd0c0c;
+        background: url(./images/images/subscribe.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .subscription-box {
+        width: 50%;
+        padding: 5em 1em;
+    }
+
+    .input-flex {
+        display: flex;
+        justify-content: center;
+    }
+}
+
