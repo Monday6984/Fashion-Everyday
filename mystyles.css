@@ -80,7 +80,7 @@ h3 {
 
 .section-one {
     background-color: indianred;
-   padding: 5em 0;
+   padding: 5em 2em;
     color: #fff;
     
 }
@@ -134,7 +134,7 @@ h3 {
 }
 
 .section-three-text {
-    margin: 1.3em 0;
+    margin: 1.3em 2em;
 }
 
 .input-container input  {
